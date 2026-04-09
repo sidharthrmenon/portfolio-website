@@ -206,6 +206,23 @@ a {
     margin-bottom: 1.5rem;
 }
 
+.hero-socials {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero-socials a {
+    color: var(--text-muted);
+    font-size: 1.8rem;
+    transition: all 0.3s ease;
+}
+
+.hero-socials a:hover {
+    color: var(--accent-color);
+    transform: translateY(-5px);
+}
+
 .summary {
     color: var(--text-muted);
     max-width: 700px;
